@@ -80,7 +80,7 @@ When uploading content which has been stamped using an already expired postage s
 ### Calculating the Remaining TTL of Your Batch
 
 :::info
-At present, TTL is a primitive calculation based on the current storage price and the assumption that storage price will remain static in the future. As more data is uploaded into Swarm, the price of storage will begin to increase. For data that it is important to keep alive, make sure your batches have plenty of time to live!
+At present, TTL is a primitive calculation based on the current storage price and the assumption that storage price will remain static in the future. As more data is uploaded into Swarm, the price of storage will begin to increase. For data that it is important to keep alive, make sure your batches have plenty of time to live and check regularly to make sure you won't be surprised!
 :::
 
 In order to make sure your _batch_ has sufficient _remaining balance_ to be stored and served by nodes in its _neighbourhood of responsibility_, you must regularly check on its _time to live_ and act accordingly. The _time to live_ is the number of seconds before the chunks will be considered for garbage collection by nodes in the network.
